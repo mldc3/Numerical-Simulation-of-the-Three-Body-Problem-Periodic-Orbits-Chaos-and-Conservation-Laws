@@ -22,7 +22,7 @@ This is important because a trajectory can look visually plausible while still v
 
 The total energy and total angular momentum are the central diagnostics. If a simulation violates these quantities in a large and systematic way, it is not faithfully reproducing the intended physical dynamics.
 
-![Method error summary](../assets/figures/analysis/method_errors_summary.png)
+![Method error summary](../assets/figures/diagnostics/method_errors_summary.png)
 
 In the chaotic benchmark, **RKF5** gives the best conservation of both quantities. This agrees with its high order: it uses several intermediate acceleration evaluations and cancels low-order truncation errors. The advantage becomes especially visible when the simulation is run over longer time intervals.
 
@@ -84,13 +84,13 @@ The chaotic case separates the methods most clearly. In a chaotic system, two cl
 
 | Euler | RKF5 | Velocity Verlet |
 |---|---|---|
-| ![Euler](../assets/gifs/method_comparison/chaotic_euler.gif) | ![RKF5](../assets/gifs/method_comparison/chaotic_rkf5.gif) | ![Velocity Verlet](../assets/gifs/method_comparison/chaotic_velocity_verlet.gif) |
+| ![Euler](../assets/gifs/chaotic_cases/chaotic_euler.gif) | ![RKF5](../assets/gifs/chaotic_cases/chaotic_rkf5.gif) | ![Velocity Verlet](../assets/gifs/chaotic_cases/chaotic_velocity_verlet.gif) |
 
 Euler produces the least reliable evolution. RKF5 and Velocity Verlet make the dynamics more interpretable because they preserve the conserved quantities much better.
 
 ## 7. Poincaré sections
 
-![Poincaré sections](../assets/figures/analysis/poincare_sections.png)
+![Poincaré sections](../assets/figures/diagnostics/poincare_sections.png)
 
 The Poincaré section provides a phase-space view of the dynamics. For regular motion, the crossings form thin, repeated branches. When the initial conditions are perturbed, those branches change but can still retain structure. In chaotic motion, the crossings become more dispersed and no longer form a simple repeated curve.
 
