@@ -1,0 +1,2 @@
+# Numerical-Simulation-of-the-Three-Body-Problem-Periodic-Orbits-Chaos-and-Conservation-Laws
+Python simulation of the gravitational three-body problem and larger N-body systems, inspired in part by Ching-Yin Ng's grav_sim tutorial. The project compares Euler, Backward Euler, velocity Verlet and RKF5 using trajectories, GIFs, energy conservation, angular momentum, Poincaré sections and simplified Solar System experiments.
