@@ -7,7 +7,7 @@ Context:
 - Main code file: `src/three_body_simulation.py`.
 - Long-form documentation: `docs/theory_and_history.md`, `docs/results_and_discussion.md`, `docs/implementation_notes.md`.
 - Selected visual assets: `assets/gifs/` and `assets/figures/`.
-- Original supporting material: `docs/source_material/`.
+- Original supporting material has been cleaned from this repository.
 
 Goal:
 When someone opens the repository, it should look like a complete and polished project: theory, history, equations, explained results, GIFs placed in the right sections, and code that is easy to locate and run.
@@ -20,7 +20,7 @@ Attribution requirement:
 - Do not claim that this repository is the original `grav_sim` project. It is an independent practice project inspired in part by that resource.
 
 Tasks:
-1. Keep a clear structure: `src/`, `docs/`, `assets/gifs/`, `assets/figures/`, `docs/source_material/`.
+1. Keep a clear structure: `src/`, `docs/`, `assets/gifs/`, `assets/figures/`.
 2. Improve `README.md` as the main landing page: title, description, GIFs, method table, main results, installation, execution, links to docs and conclusions.
 3. Check that all relative links to images and GIFs work correctly on GitHub.
 4. Use equations compatible with GitHub Markdown.
