@@ -26,14 +26,14 @@ The three-body problem is a classic nonlinear system in celestial mechanics. Unl
 
 The simulations follow Newtonian gravity for point masses:
 
-\[
+$$
 \mathbf{F}_{ij} = G\,\frac{m_i m_j}{\|\mathbf{r}_j - \mathbf{r}_i\|^3}(\mathbf{r}_j - \mathbf{r}_i)
-\]
+$$
 
 Core diagnostics include:
 
-- **Total energy** \(E = T + V\)
-- **Total angular momentum** \(\mathbf{L}\)
+- **Total energy** $E = T + V$
+- **Total angular momentum** $\mathbf{L}$
 - **Phase-space / Poincaré-style behavior** for regularity vs chaos
 
 > The scientific intent is to preserve physical logic while comparing numerical schemes, not to alter governing equations or initial conditions arbitrarily.
