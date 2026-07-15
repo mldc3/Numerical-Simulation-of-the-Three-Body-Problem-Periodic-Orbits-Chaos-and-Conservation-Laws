@@ -101,7 +101,7 @@ This transformation does not change the relative gravitational dynamics. It simp
 The exact Newtonian $N$-body system conserves the total mechanical energy
 
 $$
-E=\sum_i \frac12 m_i\|\mathbf v_i\|^2-G\sum_{i<j}\frac{m_i m_j}{\|\mathbf r_i-\mathbf r_j\|}.
+E = \sum_i \frac{1}{2} m_i \lVert \mathbf{v}_i \rVert^2 - G \sum_{i<j} \frac{m_i m_j} {\lVert \mathbf{r}_i - \mathbf{r}_j \rVert}.
 $$
 
 The first term is kinetic energy. The second term is gravitational potential energy. Because the potential is negative, strongly bound systems have lower total energy.
